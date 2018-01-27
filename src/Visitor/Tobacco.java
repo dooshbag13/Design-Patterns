@@ -10,7 +10,7 @@ public class Tobacco implements Visitable {
 	
 	@Override
 	public double calculate(Visitor visitor) {
-		return visitor.visit(this);
+		return visitor.calculate(this);
 	}
 	
 	public double getPrice() {

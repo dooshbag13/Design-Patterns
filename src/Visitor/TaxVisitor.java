@@ -11,7 +11,7 @@ public class TaxVisitor implements Visitor{
 	}
 
 	@Override
-	public double visit(Liquor liquorItem) {
+	public double calculate(Liquor liquorItem) {
 		
 		System.out.println("Liquor Item: Price with Tax");
   
@@ -19,7 +19,7 @@ public class TaxVisitor implements Visitor{
 	}
 
 	@Override
-	public double visit(Tobacco tobaccoItem) {
+	public double calculate(Tobacco tobaccoItem) {
 		
 		System.out.println("Tobacco Item: Price with Tax");
 
@@ -27,7 +27,7 @@ public class TaxVisitor implements Visitor{
 	}
 
 	@Override
-	public double visit(Food foodItem) {
+	public double calculate(Food foodItem) {
 		
 		System.out.println("Necessity Item: Price with Tax");
 

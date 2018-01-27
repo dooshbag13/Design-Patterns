@@ -1,7 +1,7 @@
 package Visitor;
 
 public interface Visitor {
-	double visit(Liquor liquorItem);
-	double visit(Tobacco tobaccoItem);
-	double visit(Food foodItem);
+	double calculate(Liquor liquorItem);
+	double calculate(Tobacco tobaccoItem);
+	double calculate(Food foodItem);
 }
