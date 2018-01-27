@@ -1,3 +1,3 @@
-# Main Design Patterns
+# Main Design Patterns in JAVA
 
-Some of the most widely used design patterns
+Examples of some of the most widely used design patterns written in Java
