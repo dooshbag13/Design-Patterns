@@ -19,6 +19,6 @@ public class DemoVisitor {
 		System.out.println(bread.calculate(taxHolidayCalc));
 		System.out.println(brandy.calculate(taxHolidayCalc));
 		System.out.println(kent.calculate(taxHolidayCalc));
-
+ 
 	}
 }
