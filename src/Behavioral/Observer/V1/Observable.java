@@ -1,4 +1,4 @@
-package Observer;
+package Behavioral.Observer.V1;
 
 import java.util.HashSet;
 import java.util.Set;

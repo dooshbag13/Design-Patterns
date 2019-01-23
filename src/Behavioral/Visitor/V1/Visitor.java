@@ -1,4 +1,4 @@
-package Visitor;
+package Behavioral.Visitor.V1;
 
 public interface Visitor {
 	double calculate(Liquor liquorItem);

@@ -1,4 +1,4 @@
-package Observer;
+package Behavioral.Observer.V1;
 
 public class DemoThermometerClient implements Observer { 
 	

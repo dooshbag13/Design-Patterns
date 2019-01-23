@@ -1,12 +1,12 @@
-package Visitor;
+package Behavioral.Visitor.V1;
 
 import java.text.DecimalFormat;
 
-public class TaxHolidayVisitor implements Visitor{
+public class TaxVisitor implements Visitor{
 	
 	DecimalFormat df = new DecimalFormat("#.##");
 	
-	public TaxHolidayVisitor() {
+	public TaxVisitor() {
 		
 	}
 
@@ -15,7 +15,7 @@ public class TaxHolidayVisitor implements Visitor{
 		
 		System.out.println("Liquor Item: Price with Tax");
   
-		return Double.parseDouble(df.format((liquorItem.getPrice() * .10) + liquorItem.getPrice()));
+		return Double.parseDouble(df.format((liquorItem.getPrice() * .18) + liquorItem.getPrice()));
 	}
 
 	@Override
@@ -23,7 +23,7 @@ public class TaxHolidayVisitor implements Visitor{
 		
 		System.out.println("Tobacco Item: Price with Tax");
 
-		return Double.parseDouble(df.format((tobaccoItem.getPrice() * .28) + tobaccoItem.getPrice()));
+		return Double.parseDouble(df.format((tobaccoItem.getPrice() * .32) + tobaccoItem.getPrice()));
 	}
 
 	@Override

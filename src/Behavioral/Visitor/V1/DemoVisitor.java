@@ -1,4 +1,4 @@
-package Visitor;
+package Behavioral.Visitor.V1;
 
 public class DemoVisitor {
 	public static void main(String[] args) {

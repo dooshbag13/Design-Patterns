@@ -1,4 +1,4 @@
-package Visitor;
+package Behavioral.Visitor.V1;
 
 public class Tobacco implements Visitable {
 	

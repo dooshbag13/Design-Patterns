@@ -1,4 +1,4 @@
-package Observer;
+package Behavioral.Observer.V1;
 
 public class Driver extends Thread{
 	public static final long AVERAGE_TIME_BETWEEN_UPDATES_IN_SEC = 5;

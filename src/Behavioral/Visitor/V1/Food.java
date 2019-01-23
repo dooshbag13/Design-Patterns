@@ -1,10 +1,10 @@
-package Visitor;
+package Behavioral.Visitor.V1;
 
-public class Liquor implements Visitable {
+public class Food implements Visitable {
 	
 	private double price;
 	
-	public Liquor(double value) {
+	Food(double value){
 		this.price = value;
 	}
 	
