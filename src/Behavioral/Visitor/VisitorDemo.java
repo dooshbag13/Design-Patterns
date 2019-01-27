@@ -96,9 +96,9 @@ public class VisitorDemo {
 		Visitor taxCalc = new TaxVisitor();
 		Visitor taxHolidayCalc = new TaxHolidayVisitor();
 		
-		Food bread = new Food(2.35);
-		Liquor brandy = new Liquor(9.85);
-		Tobacco kent = new Tobacco(6.25);
+		Visitable bread = new Food(2.35);
+		Visitable brandy = new Liquor(9.85);
+		Visitable kent = new Tobacco(6.25);
 		
 		System.out.println(bread.acceptAndCalculate(taxCalc));
 		System.out.println(brandy.acceptAndCalculate(taxCalc));

@@ -1,4 +1,4 @@
-package Decorator;
+package Structural.Decorator;
 
 public class BorderDecorator extends Decorator{
 	

@@ -1,4 +1,4 @@
-package Decorator;
+package Structural.Decorator;
 
 public interface GraphicalComponent {
 	public void paint();

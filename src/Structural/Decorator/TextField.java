@@ -1,4 +1,4 @@
-package Decorator;
+package Structural.Decorator;
 
 import java.util.LinkedList;
 import java.util.List;

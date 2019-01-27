@@ -1,4 +1,4 @@
-package Proxy;
+package Structural.Proxy;
 
 public class BusinesObjectImplementation implements BusinesObject {
 

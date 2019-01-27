@@ -1,4 +1,4 @@
-package Decorator;
+package Structural.Decorator;
 
 public class ScrollBarDecorator extends Decorator{
 
