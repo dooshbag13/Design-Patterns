@@ -1,4 +1,4 @@
-package Builder;
+package Creational.Builder;
 
 public class Demo {
 	public static void main(String[] args) {

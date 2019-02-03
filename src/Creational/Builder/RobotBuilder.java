@@ -1,4 +1,4 @@
-package Builder;
+package Creational.Builder;
 
 public interface RobotBuilder {
 	
